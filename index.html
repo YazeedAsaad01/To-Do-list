@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="header-div">
+           <h1 id="headline">Schedule</h1>
+           <div class="inputs">
+            <button type="button" name="button" class="update-btn">Update Header Name</button>
+            <input type="text" class="theInput" title="Type here">
+            <button type="button" name="button" class="add-btn">Add Task</button>
+           </div>
+          </div>
+      </header>
+      <label for="prioritySelect">Chose a Priority</label>
+      <select id="prioritySelect">
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="button" name="button2" class="hide-list">Hide list</button>
+      <div class="li-div">
+        <h2 class="click-h2">When you complete the task, click on it</h2>
+        <ul class="tryThis" aria-live="polite">
+          <li>Practice HTML</li>
+          <li>Practice JavaScript</li>
+          <li>Make a new project</li>
+          <li>Make a CV</li>
+          <li>Buy pizza</li>
+        </ul>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
